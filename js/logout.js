@@ -25,6 +25,7 @@ function mostrarAlertaExito(mensaje) {
     document.body.insertBefore(msgExito, document.body.firstChild);
     setTimeout(() => {
         msgExito.style.display = 'none';
+        window.location.replace('index.html');
     }, 3000);
 }
 
